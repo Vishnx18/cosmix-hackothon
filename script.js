@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            const response = await fetch('https://cosmix-hackothon.onrender.com', {
+            const response = await fetch('https://cosmix-hackothon-1.onrender.com', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(payload)
